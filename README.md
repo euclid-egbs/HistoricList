@@ -20,19 +20,21 @@ This file contains the list of the corners of each subquadrant in the images in 
 
 ## Whichfields.ipynb
 
-A simple jupyter notebook to find the fields in which we can find an object at given (ra,dec).
-For a given (ra,dec) we obtain the list of images and subquadrants in which we can find the object.
-In the nxt cell, we can also obtain the pixel coodinates in each of the subquadrants.
+A simple jupyter notebook to retrieve the fields in which we can find an object at given (ra,dec).
+For a given (ra,dec) we obtain the list of image names and subquadrants in which we can find the object.
 
-Consider that the astrometry is only approximate with a linear transformation. There might be a discrepancy of tens of pixel with the correct position.
+In the next cell, we can also obtain the pixel coodinates in each of the subquadrants.
 
-## Real_fields_and_events.png
-
-This image contains a plot of the EGBS fields with all historic microlensing events found in the fields.
+Consider that the astrometry is only approximate because it only implements a linear transformation from the information found in the header. There might be discrepancies of the order of tens of pixel from the real position.
 
 ## HistoricList.txt
 
 The list of all historic microlensing events found in EGBS with their parameters extracted from OGLE, MOA or KMTNet web pages.
+The total amounts to 8025 events.
+
+## Real_fields_and_events.png
+
+This image contains a plot of the EGBS fields with all historic microlensing events found in the fields.
 
 # Current work
 
