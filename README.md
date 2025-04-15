@@ -2,6 +2,8 @@
 
 The fields in Euclid Galactic Bulge Survey have been observed by historic surveys OGLE, MOA and KMTNet since the early 2000's. In this repository we include all the information we have collected on these historic events, providing predictions for the lens-source separation as it should be observed in EGBS images.
 
+This work is being performed by V. Bozza, L. Salmeri and P. Rota (University of Salerno), in collaboration with the Euclid swg-exoplanets.
+
 ## Fieldcoords.txt
 
 This file contains the list of the corners of each subquadrant in the images in the EGBS. The columns are:
