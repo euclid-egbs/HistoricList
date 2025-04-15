@@ -8,7 +8,7 @@ This work is being performed by V. Bozza, L. Salmeri and P. Rota (University of 
 
 This file contains the list of the corners of each subquadrant in the images in the EGBS. The columns are:
 - File name
-- Layer
+- Subquadrant
 - RA corner 1
 - Dec corner 1
 - RA corner 2
