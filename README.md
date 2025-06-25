@@ -51,14 +51,10 @@ The total amounts to 8081 events. For each event we have the following columns:
 - chi2/dof: chi square over degrees of freedom as found by RTModel
 
 
-## Real_fields_and_events.png
+## all_events.png
 
-This image contains a plot of the EGBS fields with all historic microlensing events found in the fields.
+This image contains a plot of the EGBS fields with all historic microlensing events found in the fields with known planetary events in evidence.
 
 # Current work
 
-We are re-modeling all historic microlensing events in order to have a homogeneous set of parameters.
-
-# Coming next
-
-We will run [genulens](https://github.com/nkoshimoto/genulens) with constraints derived from our models to obtain predictions on the proper motions of all events
+A manuscript is in preparation.
