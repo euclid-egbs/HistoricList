@@ -29,8 +29,27 @@ Consider that the astrometry is only approximate because it only implements a li
 
 ## HistoricList.txt
 
-The list of all historic microlensing events found in EGBS with their parameters extracted from OGLE, MOA or KMTNet web pages.
-The total amounts to 8025 events.
+The list of all historic microlensing events in EGBS from OGLE, MOA and KMTNet with their information.
+The total amounts to 8081 events. For each event we have the following columns:
+- Event name
+- Percentage_180: Percent probability that the lens is separated by more than 180 mas from the source
+- Percentage_110: Percent probability that the lens is separated by more than 110 mas from the source
+- Percentage_55: Percent probability that the lens is separated by more than 55 mas from the source
+- Percentage_27_5: Percent probability that the lens is separated by more than 27.5 mas from the source
+- Model: Best model category as found by RTModel
+- tE: Einstein time
+- err_tE: error on Einstein time
+- I_baseline: I-band magnitude at the baseline (if available)
+- t0: Time of closest approach between lens and source in HJD
+- piEN: Microlensing parallax, North component
+- err_piEN: Error on North component
+- piEE: Microlensing parallax, East component
+- err_piEE: Error on East component
+- Extinction: Extinction in I-band
+- RA: Right Ascension in degrees
+- Dec: Declination in degrees
+- chi2/dof: chi square over degrees of freedom as found by RTModel
+
 
 ## Real_fields_and_events.png
 
