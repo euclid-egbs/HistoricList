@@ -50,10 +50,30 @@ The total amounts to 8081 events. For each event we have the following columns:
 - Dec: Declination in degrees
 - chi2/dof: chi square over degrees of freedom as found by RTModel
 
-
 ## all_events.png
 
 This image contains a plot of the EGBS fields with all historic microlensing events found in the fields with known planetary events in evidence.
+
+
+## planets_delta_theta_updated.dat
+
+The list of all 51 published planets in EGBS footprint.
+If more than one model is presented in the paper, the name of the event is followed by _M1, _M2, and so on.
+For each model we report
+- Event name and model number
+- t0(HJD): the time of closest approach in the microlensing event
+- err_t0: error on t0
+- theta_E(mas): Einstein angle in mas
+- err_theta_e: error on Einstein angle
+- mu_rel_Hel_N: heliocentric proper motion in North direction
+- delta_mu_N: error on heliocentric proper motion North component
+- mu_rel_hel_E: heliocentric proper motion in North direction
+- delta_mu_E: error on heliocentric proper motion North component
+- mod_mu_rel_hel: total heliocentric proper motion
+- err_mu_rel_hel: error on heliocentric proper motion
+- delta_theta: lens-source separation expected in EGBS
+- err_delta_theta: error on lens-source separation
+- Method: how the proper motion was calculated (FS: finite-source effect, PX: parallax, HR: high-angular resolution observations, Bayes: only Bayesian expectation)
 
 # Current work
 
