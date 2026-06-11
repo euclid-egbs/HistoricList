@@ -33,10 +33,11 @@ The list of all historic microlensing events in EGBS from OGLE, MOA and KMTNet w
 The total amounts to 8081 events. For each event we have the following columns:
 - Event name
 - Percentage_180: Percent probability that the lens is separated by more than 180 mas from the source
-- Percentage_110: Percent probability that the lens is separated by more than 110 mas from the source
-- Percentage_55: Percent probability that the lens is separated by more than 55 mas from the source
-- Percentage_27_5: Percent probability that the lens is separated by more than 27.5 mas from the source
-- Model: Best model category as found by RTModel
+- Percentage_150: Percent probability that the lens is separated by more than 150 mas from the source
+- Percentage_100: Percent probability that the lens is separated by more than 100 mas from the source
+- Percentage_50: Percent probability that the lens is separated by more than 50 mas from the source
+- Percentage_25: Percent probability that the lens is separated by more than 25 mas from the source
+- Model: Best model category as found by RTModel (a * indicates a suspected non-microlensing event with a rise >2 times faster than the descent)
 - tE: Einstein time
 - err_tE: error on Einstein time
 - I_baseline: I-band magnitude at the baseline (if available)
@@ -75,6 +76,6 @@ For each model we report
 - err_delta_theta: error on lens-source separation
 - Method: how the proper motion was calculated (FS: finite-source effect, PX: parallax, HR: high-angular resolution observations, Bayes: only Bayesian expectation)
 
-# Current work
+# Paper
 
-A manuscript is in preparation.
+Please cite [https://ui.adsabs.harvard.edu/abs/2025arXiv251103307B/abstract](https://ui.adsabs.harvard.edu/abs/2025arXiv251103307B/abstract)
