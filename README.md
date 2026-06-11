@@ -2,7 +2,7 @@
 
 The fields in Euclid Galactic Bulge Survey have been observed by historic surveys OGLE, MOA and KMTNet since the early 2000's. In this repository we include all the information we have collected on these historic events, providing predictions for the lens-source separation as it should be observed in EGBS images.
 
-This work is being performed by V. Bozza, L. Salmeri and P. Rota (University of Salerno), in collaboration with the Euclid swg-exoplanets.
+This work is being performed by V. Bozza, L. Salmeri and P. Rota (University of Salerno), in collaboration with the Euclid swg-exoplanets. For any scientific use, please cite our paper [https://ui.adsabs.harvard.edu/abs/2025arXiv251103307B/abstract](https://ui.adsabs.harvard.edu/abs/2025arXiv251103307B/abstract).
 
 ## Fieldcoords.txt
 
@@ -76,6 +76,4 @@ For each model we report
 - err_delta_theta: error on lens-source separation
 - Method: how the proper motion was calculated (FS: finite-source effect, PX: parallax, HR: high-angular resolution observations, Bayes: only Bayesian expectation)
 
-# Paper
 
-Please cite [https://ui.adsabs.harvard.edu/abs/2025arXiv251103307B/abstract](https://ui.adsabs.harvard.edu/abs/2025arXiv251103307B/abstract)
