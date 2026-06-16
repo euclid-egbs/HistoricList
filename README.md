@@ -33,7 +33,7 @@ The list of all historic microlensing events in EGBS from OGLE, MOA and KMTNet w
 The total amounts to 8081 events. For each event we have the following columns:
 - Event name
 - Percentage_180: Percent probability that the lens is separated by more than 180 mas from the source
-- Percentage_150: Percent probability that the lens is separated by more than 150 mas from the source
+- Percentage_140: Percent probability that the lens is separated by more than 140 mas from the source
 - Percentage_100: Percent probability that the lens is separated by more than 100 mas from the source
 - Percentage_50: Percent probability that the lens is separated by more than 50 mas from the source
 - Percentage_25: Percent probability that the lens is separated by more than 25 mas from the source
